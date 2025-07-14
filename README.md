@@ -1,16 +1,25 @@
-# book_store_app
+# 📚 Flutter BookStore App
 
-A new Flutter project.
+A fully responsive Flutter application for browsing books fetched from the Google Books API. Designed using the **MVVM architecture pattern** with **Bloc/Cubit** state management. The app adapts its layout to various screen sizes using **MediaQuery**, supports **dark mode**, and includes advanced error handling.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- 📖 Fetch and display books from Google Books API using `dio`
+- 💡 Responsive UI using `MediaQuery` for all screen sizes
+- 🌙 Dark theme support throughout the app
+- 🔁 State management with `flutter_bloc` and `Cubit`
+- 🧱 MVVM architecture for scalable and maintainable code
+- 🔗 Preview books via `url_launcher`
+- 🔒 Exception handling for API errors and connection issues
+- 🎯 Custom loading placeholders using `redacted` package
 
-A few resources to get you started if this is your first Flutter project:
+## 🧪 Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Category         | Technologies                             |
+|------------------|-------------------------------------------|
+| Architecture     | MVVM, Bloc, Clean Code Principles         |
+| Networking       | Dio, REST API (Google Books API)          |
+| UI               | Flutter Widgets, MediaQuery, Dark Theme   |
+| State Management | Bloc / Cubit                              |
+| UX Enhancements  | url_launcher, redacted                    |
+| IDEs             | VS Code, Android Studio                   |
